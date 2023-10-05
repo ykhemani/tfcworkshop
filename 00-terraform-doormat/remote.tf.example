@@ -1,0 +1,9 @@
+terraform {
+  backend "remote" {
+    organization = "tfcworkshop"
+    workspaces {
+      name = "doormat-deployment-iam-role"
+    }
+  }
+}
+

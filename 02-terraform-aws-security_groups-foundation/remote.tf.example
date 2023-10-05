@@ -1,0 +1,10 @@
+terraform {
+  cloud {
+    organization = "tfcworkshop"
+
+    workspaces {
+      name = "aws-foundation-security-groups"
+    }
+  }
+}
+
